@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+}
+.center_parent {
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+}
+.center_parent > .center_child {
+    display: table-cell;
+    vertical-align: middle;
+}
