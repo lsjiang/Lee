@@ -3,14 +3,27 @@
 	<head>
 		<title>Login - Heron Island Live Learning</title>
 		<meta charset="UTF-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
 		<link rel="stylesheet" type="text/css" href="login.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/ardeidata.css">
+		<script src="resources/js/permanent.js"></script>
 		<script src="login.js"></script>
 	</head>
 	<body>
-		<div id="login1">
-			<a id="student" href="activities/start.html">student</a>
-			<a id="teriary" href="tertiary.html">tertiary</button>
-			<a id="staff" href="staff/login.html">staff</button>
+		<div class="center_parent">
+			<div class="center_child">
+				<div>
+					<div class="login" id="loginS" onclick="pressed(event);">
+						<img src="resources/img/S.png"><br>
+						secondary
+					</div>
+					<div class="login" id="loginT">
+						<img src="resources/img/T.png"><br>
+						tertiary
+					</div>
+				</div>
+				<img id="confirm" src="resources/img/tick.png" style="width: 50px">
+			</div>
 		</div>
 	</body>
 </html>
