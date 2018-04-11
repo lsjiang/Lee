@@ -1,0 +1,225 @@
+#headerdiv { /* for the starting page */
+	/* Just a sample colour. Have to change colour to match UQ colour scheme */
+	background-color: #49075e;
+	height: 150px;
+	width: 100%;
+	margin:0;
+	padding: 0;
+	/*max-width: 1140px;*/
+	/*display: block;*/
+	/*position: relative;*/
+}
+
+#bodydiv { /* for pages excluding index.html */
+	/* Just a sample colour. Have to change colour to match UQ colour scheme */
+	background-color: white;
+	/*height: 100%;*/
+	height: 600px;
+	position: relative;
+	top: 10px;
+	border: 3px solid black;
+}
+
+#bodydiv1 { /* for the starting page */
+	/* Just a sample colour. Have to change colour to match UQ colour scheme */
+	background-color: white;
+	height: 600px;
+	position: relative;
+	top: 10px;
+	border: 3px solid black;
+}
+
+#logoIndex {
+	background-color: white;
+	height: 220px;
+	width: 30%;
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	border: 3px solid black;
+}
+
+.button { /* for the main button in the starting page */
+	background-color: #4CAF50; /* green */
+	border: none;
+	color: white;
+	padding: 32px 100px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	margin: 0 auto;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button1 { /* for the main button in the starting page */
+	/* Just a sample colour. Have to change colour to match UQ colour scheme */
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50;
+	position: relative;
+	top: 200px;
+}
+
+.button1:hover {
+	/* Just a sample colour. Have to change colour to match UQ colour scheme */
+	background-color: #4CAF50;
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width: 200px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+	position: relative;
+	top: 10px;
+	display: table-cell;
+}
+
+.userTitle {
+	color: grey;
+	font-size: 18px;
+}
+
+#cardLinks {
+	margin: 24px 0;
+}
+
+#cardButton {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%
+	font-size: 18px;
+}
+
+#cardButton:hover, a:hover {
+	opacity: 0.7;
+}
+
+a {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+}
+
+#card1 {
+	width: 100%;
+	height: 300px;
+	/*width: 200px;*/
+	border: 3px solid black;
+}
+
+.viewContainer {
+	
+	height: 300px;
+	width: 1000px;
+	display: table;
+	/*margin: 0 auto;*/
+}
+
+.scrollbar {
+	width: 60%;
+	overflow-x: scroll;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+}
+
+.uq-logo {
+	position: relative;
+	top:40px;
+	left: 70px;
+    color: #fff;
+    width: 126px;
+    height: 36px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: url("https://static.uq.net.au/v3/logos/corporate/uq-logo-white.png") no-repeat 0 0;
+    background: url("https://static.uq.net.au/v3/logos/corporate/uq-logo-white.svg") no-repeat 0 0;
+    background-size: 100%;
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    text-transform: capitalize
+}
+@media only screen and (min-width: 40.0625em) {
+    .uq-logo {
+        width: 150px;
+        height: 43px
+    }
+}
+@media only screen and (min-width: 64.0625em) {
+    .uq-logo {
+        width: 178px;
+        height: 51px
+    }
+}
+
+.site-title.has-2-lines {
+    font-size: 16px;
+    font-size: 1rem
+}
+
+
+@media only screen and (min-width: 40.0625em) {
+    .site-title.has-2-lines {
+        padding-top: 4px;
+        padding-top: 0.3rem;
+        padding-bottom: 4px;
+        padding-bottom: 0.3rem
+    }
+}
+@media only screen and (min-width: 64.0625em) {
+    .site-title.has-2-lines {
+        font-size: 20px;
+        font-size: 1.275rem
+    }
+}
+@media only screen and (max-width: 40em) {
+    .site-title.has-2-lines br {
+        display: none
+    }
+}
+
+.site-title__link {
+    color: #fff;
+    position: relative;
+    left: 285px;
+    bottom: 35px;
+}
+
+.site-title__link:hover {
+    text-decoration: none
+}
+
+@media only screen and (max-width: 40em) {
+    .site-title {
+        border: 0;
+        margin: 16px 0 0 0;
+        margin: 1rem 0 0 0;
+        padding: 0;
+        float: none;
+        clear: both
+    }
+}
+
+.line {
+	height: 30%;
+	position: relative;
+	float: left;
+	background-color: white;
+	left: 270px;
+	bottom: 20px;
+}

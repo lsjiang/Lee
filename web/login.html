@@ -1,29 +1,67 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Login - Heron Island Live Learning</title>
-		<meta charset="UTF-8">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<link rel="stylesheet" type="text/css" href="login.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/ardeidata.css">
-		<script src="resources/js/permanent.js"></script>
-		<script src="login.js"></script>
-	</head>
-	<body>
-		<div class="center_parent">
-			<div class="center_child">
-				<div>
-					<div class="login" id="loginS" onclick="pressed(event);">
-						<img src="resources/img/S.png"><br>
-						secondary
-					</div>
-					<div class="login" id="loginT">
-						<img src="resources/img/T.png"><br>
-						tertiary
-					</div>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/myScript.js"></script>
+	<title>Heron Island Live Learning App</title>
+</head>
+<body>
+	<div id="headerdiv">
+		<a href="https://www.uq.edu.au/" title="UQ Homepage" class="uq-logo">The University of Queensland</a>
+		<hr size="500" class="line">
+		<h2 class="site-title has-2-lines">
+			<a class="site-title__link" rel="home" title="Live Learning Library" href="https://live-learning-library.science.uq.edu.au">Live Learning Library<br>
+        	Faculty of Science</a></h2>
+			
+		</h2>
+	</div>
+	<div id="bodydiv">
+		<h1>Select User</h1>
+		<div class="scrollbar">
+			<div class="viewContainer">
+				<div class="card">
+					<img src="images/image1.png" alt="John" id="card1">
+					<h1>John Doe</h1>
+					<!-- <p class="userTitle">CEO & Founder, Example</p>
+					<p>Harvard University</p>
+					<div id="cardLinks">
+						<a href="#"><i class="fa fa-dribbble"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+					</div> -->
+					<p><button id="cardButton">Contact</button></p>
 				</div>
-				<img id="confirm" src="resources/img/tick.png" style="width: 50px">
+				<div class="card">
+					<img src="images/image1.png" alt="John" id="card1">
+					<h1>John Doe</h1>
+					<!-- <p class="userTitle">CEO & Founder, Example</p>
+					<p>Harvard University</p>
+					<div id="cardLinks">
+						<a href="#"><i class="fa fa-dribbble"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+					</div> -->
+					<p><button id="cardButton">Contact</button></p>
+				</div>
+				<div class="card">
+					<img src="images/image1.png" alt="John" id="card1">
+					<h1>John Doe</h1>
+					<!-- <p class="userTitle">CEO & Founder, Example</p>
+					<p>Harvard University</p>
+					<div id="cardLinks">
+						<a href="#"><i class="fa fa-dribbble"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+					</div> -->
+					<p><button id="cardButton">Contact</button></p>
+				</div>
 			</div>
 		</div>
-	</body>
+	</div>
+</body>
 </html>
